@@ -1,0 +1,28 @@
+2017-11-24 15:43:32,056 INFO [localhost-startStop-1] [BootstrapLoaderListener] Starting BootstrapLoaderListener
+2017-11-24 15:43:32,056 INFO [localhost-startStop-1] [lifecycle] *******************************
+2017-11-24 15:43:32,056 INFO [localhost-startStop-1] [lifecycle] *   Bamboo is starting up     *
+2017-11-24 15:43:32,056 INFO [localhost-startStop-1] [lifecycle] *******************************
+2017-11-24 15:43:32,057 INFO [localhost-startStop-1] [ServletContextHolder] Setting servlet context: Bamboo
+2017-11-24 15:43:32,106 INFO [localhost-startStop-1] [lifecycle] atlassian.org.osgi.framework.bootdelegation set to javax.servlet,javax.servlet.*,sun.*,com.sun.*,org.w3c.dom.*,org.apache.xerces.*
+2017-11-24 15:43:32,306 INFO [localhost-startStop-1] [BootstrapLoaderListener] App classloader is the same as web app classloader
+2017-11-24 15:43:33,310 INFO [localhost-startStop-1] [lifecycle] Starting Bamboo 6.2.3 (build #60210 Mon Nov 20 21:04:22 IST 2017) using Java 1.8.0_91 from Oracle Corporation
+2017-11-24 15:43:33,310 INFO [localhost-startStop-1] [lifecycle] Real path of servlet context: /Users/vramisetti/Downloads/atlassian-bamboo-6.2.3/atlassian-bamboo/
+2017-11-24 15:43:33,311 WARN [localhost-startStop-1] [DefaultAtlassianBootstrapManager] Unable to set up application config: no home set
+2017-11-24 15:43:33,311 INFO [localhost-startStop-1] [lifecycle] Bamboo home directory: .
+2017-11-24 15:43:33,311 INFO [localhost-startStop-1] [lifecycle] Default charset: UTF-8, file name ecoding: UTF-8
+2017-11-24 15:43:33,317 INFO [localhost-startStop-1] [UpgradeLauncher] Upgrades not performed since the application has not been set up yet.
+2017-11-24 15:43:33,347 INFO [localhost-startStop-1] [CompressingFilter] CompressingFilter has initialized
+2017-11-24 15:43:33,781 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2017-11-24 15:43:34,468 INFO [localhost-startStop-1] [Dispatchers] Dispatcher org.apache.struts2.dispatcher.Dispatcher initialised
+2017-11-24 15:43:34,521 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2017-11-24 15:43:35,149 INFO [localhost-startStop-1] [AccessLogFilter] AccessLogFilter initialized. Format is: <user> <url> <starting memory free (kb)> +- <difference in free mem (kb)> <query time (ms)>
+2017-11-24 15:43:35,197 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2017-11-24 15:43:35,311 INFO [localhost-startStop-1] [Dispatchers] Dispatcher org.apache.struts2.dispatcher.Dispatcher initialised
+2017-11-24 15:43:35,345 INFO [localhost-startStop-1] [SpringObjectFactoryProxy] Deferring initialisation of com.atlassian.bamboo.plugin.xwork.SpringObjectFactoryProxy
+2017-11-24 15:43:35,566 INFO [http-nio-8085-exec-1] [JohnsonFilter] The application is not yet setup.  Redirecting request from '/start.action' to '/bootstrap/selectSetupStep.action'
+2017-11-24 15:43:35,580 INFO [http-nio-8085-exec-2] [AccessLogFilter] 0:0:0:0:0:0:0:1 GET http://localhost:8085/bootstrap/selectSetupStep.action 340567kb
+2017-11-24 15:45:39,507 INFO [http-nio-8085-exec-19] [AccessLogFilter] 0:0:0:0:0:0:0:1 GET http://localhost:8085/bootstrap/selectSetupStep.action 452128kb
+2017-11-24 15:45:58,393 INFO [localhost-startStop-2] [Dispatchers] Dispatcher org.apache.struts2.dispatcher.Dispatcher destroyed
+2017-11-24 15:45:58,400 INFO [localhost-startStop-2] [CompressingFilter] CompressingFilter is being destroyed...
+2017-11-24 15:45:58,401 INFO [localhost-startStop-2] [Dispatchers] Dispatcher org.apache.struts2.dispatcher.Dispatcher destroyed
+2017-11-24 15:45:58,449 INFO [localhost-startStop-2] [BambooPluginManager] Plugin state will no longer be persisted.
